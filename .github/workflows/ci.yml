@@ -21,7 +21,7 @@ jobs:
       image: ghcr.io/go-debos/test-containers/${{matrix.variant}}:main
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3.1.0
 
     - name: Test build
       run: go build -o fakemachine cmd/fakemachine/main.go
