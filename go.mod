@@ -9,5 +9,5 @@ require (
 	github.com/stretchr/testify v1.7.1
 	github.com/surma/gocpio v1.1.0
 	github.com/ulikunitz/xz v0.5.10
-	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
+	golang.org/x/sys v0.5.0
 )
